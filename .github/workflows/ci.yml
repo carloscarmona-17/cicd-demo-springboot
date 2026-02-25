@@ -46,7 +46,7 @@ jobs:
       - name: Upload Coverage Report
         uses: actions/upload-artifact@v4
         with:
-        name: coverage-report
-        path: target/site/jacoco/
-        retention-days: 7
+          name: coverage-report
+          path: target/site/jacoco/
+          retention-days: 7
     
